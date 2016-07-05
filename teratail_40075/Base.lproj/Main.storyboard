@@ -86,16 +86,16 @@
                                                 <constraint firstItem="B8X-9l-cVi" firstAttribute="top" secondItem="Zqz-Z3-cWa" secondAttribute="bottom" constant="8" id="7B2-x8-vAG"/>
                                                 <constraint firstItem="ffr-Nd-qcg" firstAttribute="leading" secondItem="133-V0-Bot" secondAttribute="trailing" constant="16" id="8XE-Vo-8Uh"/>
                                                 <constraint firstItem="ffr-Nd-qcg" firstAttribute="top" secondItem="133-V0-Bot" secondAttribute="top" id="Apq-TU-obb"/>
+                                                <constraint firstItem="Z4c-3B-aPT" firstAttribute="top" secondItem="133-V0-Bot" secondAttribute="bottom" constant="9" id="Bqk-Z9-bjX"/>
                                                 <constraint firstItem="Z4c-3B-aPT" firstAttribute="leading" secondItem="wvd-RS-5ll" secondAttribute="leading" constant="10" id="Dbe-g3-men"/>
                                                 <constraint firstItem="Zqz-Z3-cWa" firstAttribute="leading" secondItem="wvd-RS-5ll" secondAttribute="leading" constant="16" id="GbD-zM-lhR"/>
                                                 <constraint firstItem="133-V0-Bot" firstAttribute="leading" secondItem="wvd-RS-5ll" secondAttribute="leading" constant="10" id="OZu-k8-uPR"/>
                                                 <constraint firstAttribute="trailing" secondItem="Z4c-3B-aPT" secondAttribute="trailing" constant="10" id="RbW-WZ-KTB"/>
                                                 <constraint firstItem="Zqz-Z3-cWa" firstAttribute="top" secondItem="Z4c-3B-aPT" secondAttribute="bottom" constant="11" id="U6C-AL-ogl"/>
-                                                <constraint firstItem="133-V0-Bot" firstAttribute="top" secondItem="wvd-RS-5ll" secondAttribute="top" constant="8" id="U7M-AS-7Sw"/>
                                                 <constraint firstItem="LSX-J0-0yp" firstAttribute="top" secondItem="B8X-9l-cVi" secondAttribute="bottom" constant="8" id="bCW-53-iiO"/>
+                                                <constraint firstItem="133-V0-Bot" firstAttribute="top" secondItem="wvd-RS-5ll" secondAttribute="top" constant="8" id="fre-3k-zbe"/>
                                                 <constraint firstItem="LSX-J0-0yp" firstAttribute="leading" secondItem="wvd-RS-5ll" secondAttribute="leading" constant="16" id="lHr-CF-rvO"/>
-                                                <constraint firstItem="Z4c-3B-aPT" firstAttribute="top" secondItem="ffr-Nd-qcg" secondAttribute="bottom" constant="9" id="vhO-Wx-Sdq"/>
-                                                <constraint firstAttribute="bottom" secondItem="LSX-J0-0yp" secondAttribute="bottom" constant="11.5" id="yZD-Fy-TbV"/>
+                                                <constraint firstAttribute="bottom" secondItem="LSX-J0-0yp" secondAttribute="bottom" priority="750" constant="11.5" id="yZD-Fy-TbV"/>
                                                 <constraint firstItem="B8X-9l-cVi" firstAttribute="leading" secondItem="wvd-RS-5ll" secondAttribute="leading" constant="16" id="zjs-kx-Ysn"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -103,7 +103,7 @@
                                             <outlet property="bodyLabel" destination="Z4c-3B-aPT" id="TdS-Qv-V4M"/>
                                             <outlet property="imageView1" destination="Zqz-Z3-cWa" id="oF9-sV-B3d"/>
                                             <outlet property="imageView1Bottom" destination="7B2-x8-vAG" id="Qoq-d4-27a"/>
-                                            <outlet property="imageView1Height" destination="U7y-CQ-UNd" id="bd2-ZE-flC"/>
+                                            <outlet property="imageView1Height" destination="U7y-CQ-UNd" id="9Yo-ks-UH7"/>
                                             <outlet property="imageView2" destination="B8X-9l-cVi" id="Y9q-C6-AfF"/>
                                             <outlet property="imageView2Bottom" destination="bCW-53-iiO" id="QXc-is-oGd"/>
                                             <outlet property="imageView2Height" destination="yAt-NK-vUQ" id="D4V-xC-bv0"/>
